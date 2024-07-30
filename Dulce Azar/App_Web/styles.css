@@ -1,0 +1,102 @@
+button {
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: #00BAFF;
+    --hover-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    margin-bottom: 15px;
+    height: 45px;
+    width: 145px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  * {
+    font-family: "Questrial", sans-serif;
+    font-weight: 600px;
+    font-style: normal;
+  }
+  
+  button:hover {
+    background-color: var(--secondary-color);
+    color: var(--hover-color);
+    font-weight: bold;
+  }
+  
+  body {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1E1E1E;
+  }
+  
+  header {
+    margin-top: 50px;
+  }
+  
+  main {
+    height: 470px;
+  }
+  
+  footer {
+    height: 5px;
+  }
+  
+  div {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E1E;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .div-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 0.025em;
+  }
+  
+  h2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: normal;
+  }
+  
+  h3 {
+    color: rgb(150, 150, 150);
+    font-weight: normal;
+    font-size: 10px;
+  }
+  img {
+    position: absolute; /* Posiciona la imagen de forma absoluta dentro del contenedor */
+    right: 0; /* Alinea la imagen a la derecha */
+    top: 0; /* Alinea la imagen en la parte superior del contenedor */
+    height: 100px; /* Ajusta la altura de la imagen para que coincida con la del texto h1 */
+    width: auto; /* Mantiene la proporción de la imagen */
+    margin-top: 20px;
+    margin-right: 20px;
+  }
